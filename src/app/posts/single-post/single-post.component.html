@@ -1,0 +1,8 @@
+<div *ngIf="post">
+    <div>Id : {{post.id}}</div>
+    <div>Title : {{post.title}}</div>
+    <div>Description : {{post.description}}</div>
+</div>
+<div>
+    <a [routerLink]="['/posts']">Back to Post</a>
+</div>
